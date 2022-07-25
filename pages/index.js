@@ -1,22 +1,29 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
+const HeaderInfo = (c) => {};
+
+let logo = '⚡️';
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Управление ⚡️</title>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.subtitle}></h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <span>Очередь</span>
+
+          <code className={styles.code}>1111</code>
         </p>
+        <div id="container">
+          <div className="col">1</div>
+          <div className="col">1</div>
+        </div>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -51,9 +58,10 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a href="https://next.new" target="_blank" rel="noopener noreferrer">
-          Created with&nbsp;<b>next.new</b>&nbsp;⚡️
+          Develop &nbsp;<b>@ittp</b>&nbsp;
         </a>
       </footer>
     </div>
   );
 }
+7;
